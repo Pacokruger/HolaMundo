@@ -16,6 +16,11 @@ public class JavaApplication42 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        git status // ver lo nuevo
+                git add .  // para agregar los archivos nuevos
+                git commit -m " nombre" // para darle un nombre a las cosas que subis
+                git push  // para subir todo a github
     }
     
 }
