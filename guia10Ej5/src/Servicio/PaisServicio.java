@@ -25,7 +25,7 @@ import java.util.TreeSet;
  * @author Paola
  */
 public class PaisServicio {
-    
+
     Scanner leer = new Scanner(System.in, "ISO-8859-1").useDelimiter("\n");
 
     HashSet<String> paisSet = new HashSet();
@@ -73,7 +73,7 @@ public class PaisServicio {
             if (it.next().equals(eliminado)) {
                 it.remove();
 
-            } 
+            }
             for (String aux : paisSet) {
 
                 System.out.println(aux);
