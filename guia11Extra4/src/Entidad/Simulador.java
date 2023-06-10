@@ -52,10 +52,7 @@ public class Simulador {
         apellidos[7]="M";
         apellidos[8]="B";
         apellidos[9]="X";
-        for (int i = 0; i < 10; i++) {
-           listaAlum.add(alumnos.setNombreComp(nombres[r.nextInt(0,9)],apellidos[r.nextInt()]);
-           
-        }
+    
         return null;
     }
     
